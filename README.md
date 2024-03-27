@@ -29,17 +29,11 @@ For more information: [Install Miniconda](https://docs.anaconda.com/free/minicon
 Create environment
 
 ```sh
-conda create -n pytorch-learning python=3.9
+conda env create -f environment.yml
 ```
 
 Activate environment
 
 ```sh
 conda activate pytorch-learning
-```
-
-Install dependencies
-
-```sh
-
 ```
